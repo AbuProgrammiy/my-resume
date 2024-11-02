@@ -74,6 +74,22 @@
           <h4 class="summary">{{summary}}</h4>
           <hr class="line">
           <p class="description-body">{{summaryBody}}</p>
+          <h4 class="skills">
+            @if (lang=="O'zbekcha") {
+              Ko'nikmalar
+            }
+            @else if (lang=="English") {
+              Skills
+            }
+            @else if (lang=="Русский") {
+              Навыки
+            }
+          </h4>
+          <hr class="line">
+          <p class="description-body">
+            C#, ASP.NET Core, Entity Framwork Core, PostgreSQL, MongoDB, Microservices, <br>
+            HTML, CSS, SCSS, JavaScript, TypeScript
+          </p>
           <h4 class="portfolio">{{portfolio}}</h4>
           <hr class="line">
           <ul class="description-body">
