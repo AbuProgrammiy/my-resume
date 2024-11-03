@@ -76,7 +76,7 @@ export class AppComponent {
   summaryLang={
     uzbek: "Qisqacha bayon",
     english: "Summary",
-    russian: "Средний"
+    russian: "Краткое содержание"
   }
 
   summaryBodyLang={
