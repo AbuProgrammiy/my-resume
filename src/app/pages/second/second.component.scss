@@ -1,6 +1,13 @@
 .main {
     width: 700px;
-    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-main{
+    width: 650px;
+    margin-top: 50px;
 }
 
 .content-handler {
@@ -49,4 +56,20 @@
 
 .margin-20{
     margin-top: 20px;
+}
+
+.education-name{
+    text-align: start;
+}
+
+.education-date{
+    text-align: end;
+}
+
+.education{
+    display: flex;
+}
+
+.inner-education{
+    width: 50%;
 }
