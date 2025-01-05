@@ -9,8 +9,7 @@ const routes: Routes = [
   {path:"1",component:FirstComponent},
   {path:"2",component:SecondComponent},
   {path:"3",component:ThirdComponent},
-  {path:"",component:FirstComponent},
-  //{path:"",component:MainComponent}
+  {path:"",component:MainComponent}
 ];
 
 @NgModule({
